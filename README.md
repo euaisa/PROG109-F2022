@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Prog109-F2022-Portifolio</title>
+		<title>Isadora's-Portifolio</title>
 	</head>
 	<body>
     		<div class="blurb">

@@ -1,5 +1,5 @@
 <head>
-	<title>Isadora's-Portifolio</title>
+	<title>PROG 109 - FALL 2022</title>
 </head>
 <body>
 	<div class="blurb">

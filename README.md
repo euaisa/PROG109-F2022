@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>Prog109-F2022-Portifolio</title>
@@ -7,4 +6,3 @@
     		<div class="blurb">
         		<h1>Hi there, I'm Isadora!</h1>
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->

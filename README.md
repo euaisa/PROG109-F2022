@@ -5,3 +5,5 @@
 	<div class="blurb">
 	<h1>Hi there, I'm Isadora!</h1>
 	</div><!-- /.blurb -->
+	<a href=“recipe/index.html” target="_blank" >Recipes Page</a>
+	

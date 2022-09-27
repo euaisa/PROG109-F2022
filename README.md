@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>ISA'S PORTIFOLIO</title>
+  <title>My Portifolio</title>
 </head>
 <body>
 <h1>M00: Create hosting and domain account</h1>

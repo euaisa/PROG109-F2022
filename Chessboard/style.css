@@ -55,7 +55,7 @@ float:left;
 clear: both;
 } 
 
-#footer {
+.footer {
 border:solid 1px;
 padding: 10px;
 margin-left:10%;

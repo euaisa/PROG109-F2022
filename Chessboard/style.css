@@ -58,8 +58,8 @@ clear: both;
 #footer {
 border:solid 1px;
 padding: 10px;
-position:fixed;
-z-index:10;
 background-color:#62C2CE;
 text-align:center;
+margin-left:50%;
+margin-right:50%;
 }

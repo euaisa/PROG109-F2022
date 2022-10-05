@@ -58,6 +58,11 @@ clear: both;
 .footer {
 border:solid 1px;
 padding: 10px;
-margin-left:10%;
-margin-right:10%;
+position:fixed;
+top:0px;
+left:0px;
+margin:0px;
+width:100%;
+background-color:#62C2CE;
+text-align:center;
 }

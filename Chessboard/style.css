@@ -51,8 +51,8 @@ background-color:#787878;
 float:left;
 }
 
-#clear{
-clear:both;
+.clear{
+clear: both;
 } 
 
 #footer {

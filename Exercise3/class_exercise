@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <title>Class exercise</title>
+</head>
+<body>
+<div id="left">...</div> <div id="right"></div><nav>
+</nav>
+<main>
+</main>
+
+  <!-- Make sure you check your code -->
+<hr>  
+<footer>
+<p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Nu Html Checker</a></p>  
+<p><a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS Validator</a></p> 
+</footer>
+</body>
+  
+</html>

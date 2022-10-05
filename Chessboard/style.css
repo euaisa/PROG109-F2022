@@ -30,6 +30,7 @@ margin-bottom:5%;
 }
 
 .row{
+text-align:center;
 position:relative;
 margin-left:10%;
 margin-right:10%;
@@ -58,6 +59,7 @@ clear:both;
  
 
 #footer {
+text-align:center;
 border:solid 1px;
 padding: 10px;
 margin:10px;

@@ -56,6 +56,7 @@ clear: both;
 } 
 
 #footer {
+border: 5px;
 margin-top:10px;
 margin-bottom:10px;
 text-align:center;

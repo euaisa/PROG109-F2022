@@ -23,10 +23,9 @@ margin-top:10px;
 }
 
 #container {
-margin-top:20%;
-margin-left:10%;
-margin-right:10%;
-margin-bottom:20%;
+border: 5px solid #FFFF00;
+line-height: 150px;
+height: 150px;
 }
 
 .row{

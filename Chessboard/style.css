@@ -23,10 +23,11 @@ margin-top:10px;
 }
 
 #container {
-margin-top:20%;
-margin-left:10%;
-margin-right:10%;
-margin-bottom:5%;
+border:solid 1px;
+padding: 10px;
+margin:10px;
+text-align:center;
+background-color:#62C2CE;
 }
 
 .row{

@@ -56,10 +56,7 @@ clear: both;
 } 
 
 #footer {
-border:solid 1px;
 padding: 10px;
 background-color:#62C2CE;
 text-align:center;
-margin-left:50%;
-margin-right:50%;
 }

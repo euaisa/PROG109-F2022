@@ -23,8 +23,9 @@ margin-top:10px;
 }
 
 #container {
-border:solid 5px;
-text-align:center;
+border: 5px solid #FFFF00;
+display: flex;
+justify-content: center;
 }
 
 .row{

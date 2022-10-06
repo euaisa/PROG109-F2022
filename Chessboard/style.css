@@ -1,5 +1,6 @@
 body {
 background-image:url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg");
+background-size: cover;
 }
 #title {
 position:fixed;
@@ -62,5 +63,7 @@ padding: 10px;
 margin:10px;
 background-color:#62C2CE;
 text-align:center;
+width: 100%;
+bottom: 0;
 }
 

@@ -10,7 +10,11 @@ margin: 0px;
 
 #title {
 position:fixed;
-margin: 0px;
+top:0px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
 margin-top:3px;
 margin-bottom:2px;
 width:100%;

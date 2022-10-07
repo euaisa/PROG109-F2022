@@ -52,7 +52,7 @@ margin-right:10%;
 border: 1px solid black;
 width: 10%;
 height: 60px;
-background-color:rgb(238, 242, 230);
+background:rgb(238, 242, 230);
 float:left;
 }
 
@@ -60,7 +60,7 @@ float:left;
 border: 1px solid black;
 width: 10%;
 height: 60px;
-background-color:rgb(28, 103, 88);
+background:rgb(28, 103, 88);
 float:left;
 }
 

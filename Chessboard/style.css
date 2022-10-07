@@ -1,14 +1,20 @@
 body {
 background-image:url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg");
+background-size: cover;
+margin: 0px;
 }
+
+
 #title {
 position:fixed;
 top:0px;
 left:0px;
 padding:10px;
 margin:0px;
+margin-top:5px;
+margin-bottom:20px;
 width:100%;
-background-color: F3E0B5;
+background-color: 3D8361;
 text-align:center;
 z-index:10;
 font-family: 'JustLettersMedium';
@@ -25,8 +31,8 @@ margin-top:10px;
 #container {
 margin-top:10%;
 margin-left:10%;
-margin-right:10%;
-margin-bottom:10%;
+margin-right:0%;
+margin-bottom:5%;
 }
 
 .row{
@@ -58,9 +64,10 @@ clear: both;
 
 #footer {
 border:solid 1px;
-padding: 10px;
-margin:10px;
-background-color:#D6CDA4;
+margin-top:50px;
+background-color:3D8361;
 text-align:center;
+width: 100%;
+bottom: 0;
 }
 

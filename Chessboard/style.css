@@ -14,7 +14,7 @@ margin:0px;
 margin-top:10px;
 margin-bottom:10px;
 width:100%;
-background-color:1C6758;
+background-color:"green";
 text-align:center;
 z-index:10;
 font-family: 'Android7Regular';
@@ -64,7 +64,7 @@ clear: both;
 #footer {
 border:solid 1px;
 margin-top:50px;
-background-color:1C6758;
+background-color:"green";
 text-align:center;
 width: 100%;
 bottom: 0;

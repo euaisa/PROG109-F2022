@@ -7,12 +7,9 @@ margin: 0px;
 
 #title {
 position:fixed;
-top:0px;
-left:0px;
 padding:10px;
-margin:0px;
-margin-top:5px;
-margin-bottom:20px;
+margin-top:20px;
+margin-bottom:10px;
 width:100%;
 background-color: 3D8361;
 text-align:center;

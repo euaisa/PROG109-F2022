@@ -11,7 +11,7 @@ padding:10px;
 margin-top:20px;
 margin-bottom:10px;
 width:100%;
-background-color: 3D8361;
+background-color:1C6758;
 text-align:center;
 z-index:10;
 font-family: 'JustLettersMedium';
@@ -29,7 +29,7 @@ margin-top:10px;
 margin-top:10%;
 margin-left:10%;
 margin-right:0%;
-margin-bottom:5%;
+margin-bottom:0%;
 }
 
 .row{
@@ -62,7 +62,7 @@ clear: both;
 #footer {
 border:solid 1px;
 margin-top:50px;
-background-color:3D8361;
+background-color:1C6758;
 text-align:center;
 width: 100%;
 bottom: 0;

@@ -10,7 +10,7 @@ body {
 	background-image: url("https://cdn.pixabay.com/photo/2019/07/26/02/03/mount-rainier-4363768_960_720.jpg");
 	background-size:cover;
 	background-position: center;
-	background-repeat:no-repeat;}}
+	background-repeat:no-repeat;}
 
 #nav {
 	background-color: #FF577F;
@@ -32,7 +32,7 @@ li {
 	margin-bottom: 1em;
 	text-align: center;
 	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
-	background-size:contain;
+	background-size:cover;
 	background-position: center;
 	background-repeat:no-repeat;}
 

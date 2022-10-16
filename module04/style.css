@@ -15,10 +15,8 @@ body {
 
 #nav {
 	background-color: #06283D;
-	padding: 0.5em 0;}
-	margin: 1%;}
-
-li {
+	padding: 0.5em 0;
+	margin: 1%;
 	display: inline;
 	padding: 0.5em;}
 

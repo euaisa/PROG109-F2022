@@ -1,1 +1,7 @@
-
+#feature {
+ background-color: #8CC63E;
+ background-image: url("...");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;
+}

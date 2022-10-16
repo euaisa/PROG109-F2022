@@ -21,6 +21,7 @@ body {
 	padding: 0.5em;}
 
 #content {
+	display: inline;
 	overflow: auto;}
 
 

@@ -5,12 +5,14 @@
 
 body {
 	width: 90%;
-	margin: 0 auto;}
+	margin: 0 auto;
+	text-align: center;}
 
 #nav {
 	background-color: #FF577F;
 	padding: 0.5em 0;}
-	margin: 1%;}
+	margin: 1%;
+	text-align: center;}
 
 li {
 	display: inline;
@@ -25,40 +27,44 @@ li {
 	margin: 1%;
 	height: 10em;
 	margin-bottom: 1em;
+	text-align: center;
 	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;}
 
 
-.column1 {
+#column1 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
+	text-align: center;
+	height: 10em;
+	margin-bottom: 1em;
 	background-color: #FF884B;}
 	
-.column2 {
+#column2 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
+	text-align: center;
+	height: 10em;
+	margin-bottom: 1em;
 	background-color: #FFD384;}
 	
-.column3 {
+#column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
+	text-align: center;
 	margin-right: 0%;
+	height: 10em;
+	margin-bottom: 1em;
 	background-color: #FFF9B0;}
 
 
 #footer {
 	background-color: #efefef;
-	padding: 0.5em 0;}
+	padding: 0.5em 0;
 	margin: 1%;
-
-.article {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #efefef;}
-
-
+	text-align: center;}

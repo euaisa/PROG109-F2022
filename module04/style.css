@@ -8,7 +8,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	background-image: url("https://cdn.pixabay.com/photo/2019/07/26/02/03/mount-rainier-4363768_960_720.jpg");
-	background-size:contain;
+	background-size:cover;
 	background-position: center;
 	background-repeat:no-repeat;}}
 

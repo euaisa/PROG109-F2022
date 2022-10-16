@@ -21,11 +21,11 @@ li {
 
 
 #feature {
-	background-color: #FF884B;
+	background-color: #FFA1CF;
 	margin: 1%;
 	height: 10em;
 	margin-bottom: 1em;
-	background-image: url("...");
+	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;}
@@ -35,22 +35,20 @@ li {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	background-color: #FF577F;}
+	background-color: #FF884B;}
 	
 .column2 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	background-color: #FF577F;}
+	background-color: #FFD384;}
 	
 .column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	background-color: #FF577F;}
-
-.column3 {
-	margin-right: 0%;}
+	margin-right: 0%;
+	background-color: #FFF9B0;}
 
 
 #footer {

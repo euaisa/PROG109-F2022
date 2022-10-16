@@ -41,16 +41,14 @@ li {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	text-align: center;
 	height: 10em;
-	margin-bottom: 1em;
+	margin-bottom: 10em;
 	background-color: #FF884B;}
 	
 #column2 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	text-align: center;
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #FFD384;}
@@ -59,7 +57,6 @@ li {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	text-align: center;
 	margin-right: 0%;
 	height: 10em;
 	margin-bottom: 1em;

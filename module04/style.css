@@ -27,7 +27,6 @@ li {
 
 #feature {
 	background-color: #FFA1CF;
-	margin: 1%;
 	height: 10em;
 	margin-bottom: 1em;
 	text-align: center;
@@ -40,7 +39,6 @@ li {
 .column1 {
 	display: inline-block;
 	width: 31.3%;
-	margin: 1%;
 	height: 10cm;
 	margin-bottom: 1em;
 	background-color: #256D85;}
@@ -56,7 +54,6 @@ li {
 .column3 {
 	display: inline-block;
 	width: 31.3%;
-	margin: 1%;
 	margin-right: 0%;
 	height: 10cm;
 	margin-bottom: 1em;

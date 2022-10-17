@@ -14,9 +14,8 @@ body {
 	background-repeat:no-repeat;}
 
 #nav {
-	background-color: #06283D;
-	padding: 0.5em 0;
-	margin: 1%;}
+	background-color: #06283D;}
+	
 li {
 	display: inline;
 	padding: 0.5em;}

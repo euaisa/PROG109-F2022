@@ -23,9 +23,10 @@ li {
 
 #content {
 	 width: 100%;
+	 white-space: nowrap;
    	 height: 90px;
   	 white-space: nowrap;
-	overflow-x: auto;}
+	 overflow-x: auto;}
 
 #feature {
 	background-color: #FFA1CF;

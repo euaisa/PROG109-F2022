@@ -14,7 +14,8 @@ body {
 	background-repeat:no-repeat;}
 
 #nav {
-	background-color: #DFF6FF;}
+	background-color: #DFF6FF;
+	padding: 0.5%;}
 	
 li {
 	display: inline;
@@ -39,7 +40,6 @@ li {
 
 .column1 {
 	width: 31.3%;
-	float: left;
 	margin: 1%;
 	height: 10em;
 	margin-bottom: 1em;
@@ -47,7 +47,6 @@ li {
 	
 .column2 {
 	width: 31.3%;
-	float: left;
 	margin: 1%;
 	height: 10em;
 	margin-bottom: 1em;
@@ -55,7 +54,6 @@ li {
 	
 .column3 {
 	width: 31.3%;
-	float: left;
 	margin: 1%;
 	margin-right: 0%;
 	height: 10em;

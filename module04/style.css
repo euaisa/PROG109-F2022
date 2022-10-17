@@ -37,7 +37,7 @@ li {
 	background-repeat:no-repeat;}
 
 
-#column1 {
+.column1 {
 	width: 10%;
 	float: left;
 	margin: 1%;
@@ -45,7 +45,7 @@ li {
 	margin-bottom: 1em;
 	background-color: #256D85;}
 	
-#column2 {
+.column2 {
 	width: 10%;
 	float: left;
 	margin: 1%;
@@ -53,7 +53,7 @@ li {
 	margin-bottom: 1em;
 	background-color: #47B5FF;}
 	
-#column3 {
+.column3 {
 	width: 10%;
 	float: left;
 	margin: 1%;

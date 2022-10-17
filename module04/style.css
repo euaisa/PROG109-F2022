@@ -22,7 +22,9 @@ li {
 	padding: 0.5em;}
 
 #content {
-	display: inline;
+	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-template-rows: repeat(3, 100px);
 	overflow: auto;}
 
 

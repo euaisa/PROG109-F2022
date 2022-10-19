@@ -1,9 +1,12 @@
 * {
-	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
 	font-family: 'IndieFlowerRegular';
   	font-weight: normal;
   	font-style: normal;
 	text-align: center;}
+
+#header{
+	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
+	padding-top: 5%}
 
 body {
 	width: 90%;

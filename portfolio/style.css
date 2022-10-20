@@ -6,7 +6,8 @@
 
 #header{
 	background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/30/panoramic-3120304_960_720.jpg");
-	padding-top: 5%}
+	padding-top: 5%;
+	display: block}
 
 body {
 	width: 90%;
@@ -19,7 +20,8 @@ body {
 
 #nav {
 	background-color: #DFF6FF;
-	padding: 0.2%;}
+	padding: 0.2%;
+	display: block}
 	
 li {
 	display: inline;

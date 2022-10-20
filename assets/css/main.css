@@ -3602,18 +3602,14 @@ input, select, textarea {
 
 	#nav {
 		color: #ffffff;
-		display: inline
-		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
-		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-		transition: transform 1s ease, opacity 1s ease;
+		display: inline;
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
-		position: relative;
+		position: fixed;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;

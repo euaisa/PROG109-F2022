@@ -1,4 +1,4 @@
-var table = 3;             // Unit of table
+            // Unit of table
 
 operator = GetValueFromUser("operator");
 table = GetValueFromUser("table")
@@ -14,7 +14,7 @@ function GetValueFromUser(valueType) {
   }
   else
   {
-    greetingMessage += "Enter a number:";
+   var table = "Enter a number:";
   }
   return prompt(greetingMessage);
 }

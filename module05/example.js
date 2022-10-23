@@ -8,13 +8,13 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
-  var greetingMessage = 'Hello. How are you?';
+  var greetingMessage = 'Hi, there! ';
   if (valueType == "operator") {
-    greetingMessage += "Enter addition or multiplication";
+    greetingMessage += "Enter + or *:";
   }
   else
   {
-    greetingMessage += "Enter table";
+    greetingMessage += "Enter a number:";
   }
   return prompt(greetingMessage);
 }

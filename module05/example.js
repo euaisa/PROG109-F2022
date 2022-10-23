@@ -6,7 +6,6 @@ el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
   var greetingMessage = 'Hi, there! Enter a number from 0 to 10 : ";
-  }
   return prompt(greetingMessage);
 }
 

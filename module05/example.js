@@ -18,9 +18,9 @@ function GetValueFromUser(valueType) {
 }
 
 function GetTableContent(operator, table) {
-  var i = 1;                 // Set counter to 1
+  var i = 0;                 // Set counter to 1
   var msg = '<h2>Multiplication Table</h2>';              // Message  
-  if (operator === 'addition') {
+  if (operator === '+') {
     // Do addition
     while (i < 11) {
       msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';

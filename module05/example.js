@@ -1,4 +1,3 @@
-operator = GetValueFromUser("operator");
 table = GetValueFromUser("table")
 
 // Write the message into the page
@@ -13,7 +12,7 @@ function GetValueFromUser(valueType) {
   return prompt(greetingMessage);
 }
 
-function GetTableContent(operator, table) {
+function GetTableContent(table) {
   var i = 1;                 // Set counter to 1
   var msg = '<h2>Multiplication Table</h2>';              // Message  
   while (i < 11) {

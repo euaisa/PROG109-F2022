@@ -1,6 +1,6 @@
 let table = prompt("Hi, there! Enter a number from 0 to 10 : ");
 
-if (person != null) {
+if (table != null) {
   document.getElementById("blackboard").innerHTML =
 function GetTableContent(table) {
   var i = 1;                 // Set counter to 1

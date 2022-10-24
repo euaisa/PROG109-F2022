@@ -7,7 +7,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 upRight(pHeight, pColorEven, pColorOdd, pSymbol);
 downRight(pHeight, pColorEven, pColorOdd, pSymbol);
 upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
-
+downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 }
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
@@ -16,7 +16,7 @@ for (i=1;i<=pHeight;i++){
 rLine +="<p>";
  
  //Fill in the left side of every row with spaces or blanks
- for(x=1; x<=pHeight-1;x++){
+ for(x=1; x<=pHeight-i;x++){
   //rLine +="-";
   
  rLine +="<span class='space'>" + pSymbol +"</span>";

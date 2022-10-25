@@ -12,7 +12,7 @@ downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=1;i<=pHeight;i--){
+for (i=1;i<=pHeight;i++){
 rLine +="<p>";
  
  //Fill in the left side of every row with spaces or blanks

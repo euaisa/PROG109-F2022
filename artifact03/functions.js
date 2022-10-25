@@ -10,19 +10,12 @@ upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 }
 
-function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
+function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=1;i<=pHeight;i++){
+for (i=pHeight;i > 0;i--){
 rLine +="<p>";
- 
- //Fill in the left side of every row with spaces or blanks
- for(x=-1; x<=pHeight-i;x++){
-  
- rLine +="<span class='space'>" + pSymbol +"</span>";
- }
- 
 //Create each line on the Rhombus
-for(j=x;j<=pHeight;j++){
+for(j=0;j<i;j++){
 
 //Is the position even or odd so we change the color
 if (j%2)
@@ -38,9 +31,8 @@ rLine +="</p>";
 
 }
 
-document.getElementById("downLeft").innerHTML = rLine;
+document.getElementById("downRight").innerHTML = rLine;
 }
-
 
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){

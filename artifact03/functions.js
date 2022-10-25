@@ -10,7 +10,7 @@ upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 }
 
-function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
+function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
 for (i=pHeight;i > 0;i--){
 rLine +="<p>";
@@ -31,7 +31,7 @@ rLine +="</p>";
 
 }
 
-document.getElementById("downRight").innerHTML = rLine;
+document.getElementById("downLeft").innerHTML = rLine;
 }
 
 

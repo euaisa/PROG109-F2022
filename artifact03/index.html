@@ -10,45 +10,46 @@
  <body>
    <h1>Artifact 3: Rhombus<p>
      By Isadora Silva</h1>
-   
+<p>   
 <label>Please, choose the size of your rhombus:</label><br>
 <input type="text" id="rHeight" value="5" size="5">
-<br>
+</p>
+<p>
 <label>Pick the first color:?</label><br>
 <select id="colorEven">
 <option value="#153462">Blue</option>
-<option value="#F0FF42">Yellow</option>
+<option value="#379237">Green</option>
 <option value="#D2001A">Red</option>
 </select><br>
-
+  </p>
+<p>
 <label>Now the second color:</label><br>
 <select id="colorOdd">
- <option value="#379237">Green</option>
+<option value="#F0FF42">Yellow</option>
 <option value="#EA047E">Pink</option>
 <option value="#8758FF">Purple</option>
 </select><br>
-
+  </p>
+  <p>
  <label>And finally, choose a symbol:</label>
 <select id="symbol">
 <option value="#">#</option>
 <option value="&">&</option>
 <option value="o">o</option>
 </select><br>
-  
+  </p>
+  <p>
 <button onclick="createRhombus(document.getElementById('rHeight').value,
 document.getElementById('colorEven').value,
 document.getElementById('colorOdd').value,
-document.getElementById('symbol').value);">Generate my Rhombus</button>
+document.getElementById('symbol').value);">Generate my Rhombus</button>  
+  </p>
+  
 <div id="upLeft"></div>
 <div id="upRight"></div>
-
 <div class="clear"></div>
-
-
 <div id="downLeft"></div>
 <div id="downRight"></div>
-
-
 <script src="functions.js"></script>
 
 

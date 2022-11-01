@@ -4,8 +4,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background-color: #fff;
-  background: url("../images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background-color: #90A17D;
+  background: url("https://cdn.pixabay.com/photo/2017/06/23/21/56/home-2436063_960_720.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  background: #829460 url("../images/travelworthy-logo.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -40,7 +40,7 @@ p + h2 {
 #message {
   float: left;
   clear: left;
-  background-color: #ffb87a;
+  background-color: #829460;
   color: #1e1b1e;
   width:170px;
   padding: 18px 30px;
@@ -49,8 +49,8 @@ p + h2 {
 /* black bar across the right hand side of the page */
 
 #info {
-  background-color: #1e1b1e;
-  color: #fff;
+  background-color: #829460;
+  color: #90A17D;
   width: 200px;
   padding: 0 15px;
   text-align: center;

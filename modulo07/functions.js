@@ -10,8 +10,10 @@ function Hotel(name, rooms, booked) {
 
 
 // Create two hotel objects
-var quayHotel = new Hotel('Sunset', 86, 10);
-var parkHotel = new Hotel('Mandacaru', 120, 77);
+var quayHotel = new Hotel('Quay', 40, 25);
+var parkHotel = new Hotel('Park', 120, 77);
+var parkHotel = new Hotel('Sunset', 86, 10);
+
 
 
 // Update the HTML for the page

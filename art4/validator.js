@@ -31,7 +31,14 @@ document.getElementById("Email").innerHTML = errorMessages;
 return (validFirstname && validLastname && validEmail);
 
 
-
+validPhone = false;
+var phone = document.getElementById("Phone").value;
+if (isNaN(phone) || phone.lenght >15 || phone===null || phone==="")
+    errorMessages += "<p>Invalid phone number </p>";
+else
+  validPhone = true;
+document.getElementById("Phone").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone);
 
 
 

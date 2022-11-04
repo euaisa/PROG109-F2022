@@ -1,4 +1,22 @@
- var frmvalidator = new Validator("myform");
+ //1) Create variable
+var validFirstname=false;
+//2) read value from HTML
+var firstname = document.getElementById("FirstName").value;
+//3) Do validation
+if (firstname==="null" || firstname==="" || firstname.length > 20)
+    errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
+else
+   validFirstname = true;
+//4) Send error message to HTML
+document.getElementById("errorMessages").innerHTML = errorMessages;
+
+//5) return status of each field
+return (validFirstname);
+
+
+
+
+var frmvalidator = new Validator("myform");
  frmvalidator.addValidation("FirstName","req","Please enter your First Name");
  frmvalidator.addValidation("FirstName","maxlen=20",
 		"Max length for FirstName is 20");

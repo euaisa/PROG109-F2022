@@ -1,4 +1,3 @@
-<script  type="text/javascript">
  var frmvalidator = new Validator("myform");
  frmvalidator.addValidation("FirstName","req","Please enter your First Name");
  frmvalidator.addValidation("FirstName","maxlen=20",
@@ -28,6 +27,3 @@
  frmvalidator.addValidation("Country","dontselect=000");
 
  frmvalidator.addValidation("ZipCode","maxlen=5");
-
-
-</script>

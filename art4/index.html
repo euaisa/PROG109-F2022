@@ -7,10 +7,12 @@
         <title>Artifact 04</title>
     </head>
     <body>
-        <form action="" id="myform" >
+	     <form action="thankyou.html" onsubmit="return validateForm();">
+   
 <p>
 	<label for='FirstName'>First Name:</label>
 	<input type="text" id="FirstName" name="FirstName" />
+	<div id="errorMessages"></div>
 </p>
 <p>
 	<label for='LastName'>Last Name:</label>

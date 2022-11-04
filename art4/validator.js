@@ -95,6 +95,3 @@ if (ZipCode==="null" || ZipCode==="" || ZipCode.length > 5) {
 }
 return (true);
 }
-
-}
-

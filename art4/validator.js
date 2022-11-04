@@ -14,7 +14,21 @@
  frmvalidator.addValidation("Phone","maxlen=15");
  frmvalidator.addValidation("Phone","numeric");
 
- frmvalidator.addValidation("Address","maxlen=50");
+ frmvalidator.addValidation("Username","req");
+ frmvalidator.addValidation("Username","maxlen=12");
+
+ frmvalidator.addValidation("Password","req");
+ frmvalidator.addValidation("Password","maxlen=7");
+
+ frmvalidator.addValidation("Address","req");
+
+ frmvalidator.addValidation("City","req");
+
+ frmvalidator.addValidation("State","dontselect=000");
+
  frmvalidator.addValidation("Country","dontselect=000");
+
+ frmvalidator.addValidation("ZipCode","maxlen=5");
+
 
 </script>

@@ -42,21 +42,22 @@ return (validFirstname && validLastname && validEmail && validPhone);
 
 
 
- frmvalidator.addValidation("Phone","maxlen=15");
- frmvalidator.addValidation("Phone","numeric");
+validUsername = false;
+var Username = document.getElementById("Username").value;
+if (Username==="null" || Username==="" || Username.length > 12)
+    errorMessages += "<p>The Username is required and cannot be greater than 12 characters</p>";
+else
+  validUsername = true;
+document.getElementById("Username").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername);
 
- frmvalidator.addValidation("Username","req");
- frmvalidator.addValidation("Username","maxlen=12");
 
- frmvalidator.addValidation("Password","req");
- frmvalidator.addValidation("Password","maxlen=7");
+validPassword = false;
+var Password = document.getElementById("Password").value;
+if (Password==="null" || Password==="" || Password.length > 12)
+    errorMessages += "<p>The Password is required and cannot be greater than 7 characters</p>";
+else
+  validPassword = true;
+document.getElementById("Password").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword);
 
- frmvalidator.addValidation("Address","req");
-
- frmvalidator.addValidation("City","req");
-
- frmvalidator.addValidation("State","dontselect=000");
-
- frmvalidator.addValidation("Country","dontselect=000");
-
- frmvalidator.addValidation("ZipCode","maxlen=5");

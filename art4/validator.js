@@ -1,3 +1,5 @@
+function validateForm() {
+
 var validFirstname=false;
 var firstname = document.getElementById("FirstName").value;
 
@@ -115,5 +117,5 @@ document.getElementById("ZipCode").innerHTML = errorMessages;
 return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword
         && validAddress && validCity && validState && validCountry && validZipCode );
 
-
+}
 

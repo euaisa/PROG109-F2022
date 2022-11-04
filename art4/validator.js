@@ -1,14 +1,13 @@
 function validateForm() {
 
-var validFirstname=false;
 var firstname = document.getElementById("FirstName").value;
 
-if (firstname==="null" || firstname==="" || firstname.length > 20)
-    errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
-else
-   validFirstname = true;
-document.getElementById("errorMessages").innerHTML = errorMessages;
-return (validFirstname);
+if (document.myForm.firstname.value ==="null" || firstname==="" || firstname.length > 20) {
+            errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
+            document.myForm.firstname.focus() ;
+            return false;
+}
+
 
 
 var validLastname = false;

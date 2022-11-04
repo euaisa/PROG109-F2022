@@ -61,3 +61,59 @@ else
 document.getElementById("Password").innerHTML = errorMessages;
 return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword);
 
+
+validAddress = false;
+var Address = document.getElementById("Address").value;
+if (Address==="null" || Address==="")
+    errorMessages += "<p>The Address is required</p>";
+else
+  validPassword = true;
+document.getElementById("Address").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress);
+
+
+validCity = false;
+var City = document.getElementById("City").value;
+if (City==="null" || City==="")
+    errorMessages += "<p>The City is required</p>";
+else
+  validCity = true;
+document.getElementById("City").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress && validCity);
+
+
+
+validState = false;
+var State = document.getElementById("State").value;
+if (State==="null" || State==="")
+    errorMessages += "<p>The State is required</p>";
+else
+  validState = true;
+document.getElementById("State").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validState);
+
+
+validCountry = false;
+var Country = document.getElementById("Country").value;
+if (Country==="null" || Country==="")
+    errorMessages += "<p>The Country is required</p>";
+else
+  validCountry = true;
+document.getElementById("Country").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword
+        && validAddress && validCity && validState && validCountry);
+
+
+
+validZipCode = false;
+var ZipCode = document.getElementById("ZipCode").value;
+if (ZipCode==="null" || ZipCode==="" || ZipCode.length > 5)
+    errorMessages += "<p>The ZipCode is required and cannot be greater than 5 characters</p>";
+else
+  validPassword = true;
+document.getElementById("ZipCode").innerHTML = errorMessages;
+return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword
+        && validAddress && validCity && validState && validCountry && validZipCode );
+
+
+

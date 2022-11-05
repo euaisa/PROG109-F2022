@@ -93,5 +93,5 @@ if (ZipCode==="null" || ZipCode==="" || ZipCode.length > 5) {
             document.myForm.ZipCode.focus() ;
             return false;
 }
-return (true);
+else return (true);
 }

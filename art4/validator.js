@@ -4,7 +4,9 @@ var errorMessages = []
 
 var firstname = document.getElementById("FirstName").value;
 if (document.myForm.firstname.value ==="null" || firstname==="" || firstname.length > 20) {
-            errorMessages.push("The first name is required and cannot be greater than 20 characters");
+            errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
+            document.myForm.firstname.focus() ;
+            return false;
 }
 
 

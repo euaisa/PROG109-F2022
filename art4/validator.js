@@ -1,99 +1,187 @@
-function validateForm() {
+function ValidateForm() {
+    var validFirstName = false;
+    var validLastName = false;
+    var validEmail = false;
+    var validPhoneNumber = false;
+    var validUsername = false;
+    var validPassword = false;
+    var validAddress = false;
+    var validCity = false;
+    var validState = false;
+    var validCountry = false;
+    var validZipcode = false;
 
-var errorMessages = "";
+    var letters = /^[A-Za-z]/;
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var phoneformat = /^[0-9_\-]+$/i;
+    var passwordformat = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+*!=]).*$/;
 
-var firstname = document.getElementById("FirstName").value;
-if (document.myForm.firstname.value ==="null" || firstname==="" || firstname.length > 20) {
-            errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
-            document.myForm.firstname.focus() ;
-            return false;
-}
+    var errorMessages = ""; //All the error messages are going to stay in this variable
+    /**** VALIDATES USERNAME ****
+    */
+    //Required field
+    //This syntax is using name-of-form.name-of-field.value
+    //You can also use document.getElementById("id-of-field").value
 
+    /**** VALIDATES FIRSTNAME **** 
+  */
+    //Required: Maximun 20 characters.
+    if (myContact.firstname.value.length > 20 ||
+        myContact.firstname.value === null ||
+        myContact.firstname.value === "" ||
+        !myContact.firstname.value.match(letters)) {
 
-var lastname = document.getElementById("LastName").value;
-if (lastname==="null" || lastname==="" || lastname.length > 50) {
-            errorMessages += "<p>The last name is required and cannot be greater than 50 characters</p>";
-            document.myForm.lastname.focus() ;
-            return false;
-}
+        myContact.firstname.focus();
+        errorMessages += "<p>The firstname must be less than 20 characters and it is required. Only letters are accepted.</p>";
+    }
 
-
-var userEmail = document.getElementById("Email").value;
-var atpos = userEmail.indexOf("@");
-var dotpos = userEmail.lastIndexOf(".");
-if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-            errorMessages += "<p>Invalid email</p>";
-            document.myForm.userEmail.focus() ;
-            return false;
-}
-
-
-var phone = document.getElementById("Phone").value;
-if (isNaN(phone) || phone.lenght >15 || phone===null || phone==="") {
-    errorMessages += "<p>Invalid phone number </p>";
-    document.myForm.phone.focus() ;
-    return false;
-}
-
-
-var Username = document.getElementById("Username").value;
-if (Username==="null" || Username==="" || Username.length > 12) {
-    errorMessages += "<p>The Username is required and cannot be greater than 12 characters</p>";
-    document.myForm.Username.focus() ;
-    return false;
-}
+    else
+        validFirstName = true;
 
 
-var Password = document.getElementById("Password").value;
-if (Password==="null" || Password==="" || Password.length > 12) {
-    errorMessages += "<p>The Password is required and cannot be greater than 7 characters</p>";
-    document.myForm.Password.focus() ;
-    return false;
-}
+    /**** VALIDATES LASTNAME **** 
+ */
+    //Required: Maximun 50 characters.
+    if (myContact.lastname.value.length > 50 ||
+        myContact.lastname.value === null ||
+        myContact.lastname.value === "" ||
+        !myContact.lastname.value.match(letters)){
+
+        myContact.lastname.focus();
+        errorMessages += "<p>The lastname must be less than 50 characters and it is required. Only letters are accepted.</p>";
+    }
+
+    else
+        validLastName = true;
+
+    /**** VALIDATES EMAIL **** 
+*/
+    //Required.
+    if (myContact.email.value === null ||
+        myContact.email.value === "" ||
+        !myContact.email.value.match(mailformat)){
+
+        myContact.email.focus();
+        errorMessages += "<p>Email is required. You have entered an invalid email address. </p>";
+    }   
+
+    else
+        validEmail = true;
+
+    /**** VALIDATES PHONE NUMBER **** 
+  */
+    //Required: Maximun 15 digits.
+    if (myContact.phone.value.length > 15 ||
+        myContact.phone.value === null ||
+        myContact.phone.value === "" ||
+        !myContact.phone.value.match(phoneformat)){
+
+        myContact.phone.focus();
+        errorMessages += "<p>The phone number must be less than 15 characters and it is required. Only numbers and dashes accepted.</p>";
+    }
+
+    else
+        validPhoneNumber = true;
+
+    /**** VALIDATES USERNAME **** 
+    */
+    //Required: Maximun 12 characters.
+    if (myContact.username.value.length > 12 ||
+        myContact.username.value === null ||
+        myContact.username.value === ""){
+
+        myContact.username.focus();
+        errorMessages += "<p>The username must be less than 12 characters and it is required.</p>";
+    }
+
+    else
+        validUsername = true;
 
 
-var Address = document.getElementById("Address").value;
-if (Address==="null" || Address==="") {
-            errorMessages += "<p>The Address is required</p>";
-            document.myForm.Address.focus() ;
-            return false;
-}
+    /**** VALIDATES PASSWORD ****
+    */
+    //Required.  Maximum 7 characters.
+    if (myContact.password.value.length > 7 ||
+        myContact.password.value === null ||
+        myContact.password.value === "" ||
+        !myContact.password.value.match(passwordformat)){
+
+        myContact.password.focus();
+        errorMessages += "<p>The password must be less than 7 characters and it is required. Password requires 1 upper-case, 1 lower-case, 1 numeric, 1 special character.</p>";
+    }
+
+    else
+        validPassword = true;
 
 
-var City = document.getElementById("City").value;
-if (City==="null" || City==="") {
-    errorMessages += "<p>The City is required</p>";
-    document.myForm.City.focus() ;
-    return false;
-}
+    /**** VALIDATES ADDRESS **** 
+*/
+    //Required.
+    if (myContact.address.value === null ||
+        myContact.address.value === ""){
+
+        myContact.firstname.focus();
+        errorMessages += "<p>The address is required.</p>";
+    }
+
+    else
+        validAddress = true;
+
+    /**** VALIDATES CITY **** 
+*/
+    //Required.
+    if (myContact.city.value === null ||
+        myContact.city.value === ""){
+
+        myContact.firstname.focus();
+        errorMessages += "<p>The city is required.</p>";
+    }
+
+    else
+        validCity = true;
+
+    /**** VALIDATES STATE **** 
+*/
+    //Required.
+    if (myContact.state.value === null ||
+        myContact.state.value === ""){
+
+        myContact.firstname.focus();    
+        errorMessages += "<p>The state is required.</p>";
+    }
+
+    else
+        validState = true;
+
+    /**** VALIDATES COUNTRY **** 
+*/
+    //Required.
+    if (myContact.country.value === null ||
+        myContact.country.value === ""){
+
+        myContact.firstname.focus();
+        errorMessages += "<p>The country is required.</p>";
+    }
+
+    else
+        validCountry = true;
+
+    /**** VALIDATES ZIPCODE ****
+*/
 
 
+    /****VALIDATES ZIPCODE ONLY IF THE COUNTRY IS USA */
+    if (myContact.country.value === "USA" &&
+        myContact.zipcode.value.length !== 5){
 
-var State = document.getElementById("State").value;
-if (State==="null" || State==="") {
-            errorMessages += "<p>The State is required</p>";
-            document.myForm.State.focus() ;
-            return false;
-}
+        myContact.firstname.focus();
+        errorMessages += "<p>The zipcode must have 5 digits.</p>";
+    }
 
+    else
+        validZipcode = true;
 
-
-var Country = document.getElementById("Country").value;
-if (Country==="null" || Country==="") {
-            errorMessages += "<p>The Country is required</p>";
-            document.myForm.Country.focus() ;
-            return false;
-}
-
-
-
-var ZipCode = document.getElementById("ZipCode").value;
-if (ZipCode==="null" || ZipCode==="" || ZipCode.length > 5) {
-            errorMessages += "<p>The ZipCode is required and cannot be greater than 5 characters</p>";
-            document.myForm.ZipCode.focus() ;
-            return false;
-}
-
-document.getElementById("errorMessages").innerHTML = errorMessages;
-return (true);
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+    return (validFirstName && validLastName && validEmail && validPhoneNumber && validUsername && validPassword &&
+        validAddress && validCity && validState && validCountry && validZipcode);
 }

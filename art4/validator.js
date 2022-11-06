@@ -1,6 +1,6 @@
 function validateForm() {
 
-var errorMessages = []
+var errorMessages = "";
 
 var firstname = document.getElementById("FirstName").value;
 if (document.myForm.firstname.value ==="null" || firstname==="" || firstname.length > 20) {

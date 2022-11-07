@@ -12,58 +12,46 @@
 <body>
 
     <h1>CONTACT US FORM</h1>
-    <div id="errorMessages"></div>
     <form action="ty.html" method="get" name="myContact" onsubmit="return ValidateForm()">
 
     
-            <legend>User Information</legend>
+            <legend>Get in touch with me!</legend><b>
 
             <label for="firstname">Enter First Name (Max 20 characters)</label>
-            <br>
             <input type="text" maxlenght="20" id="firstname">
+            <div id="errorMessages"></div>
             <br>
 
             <label for="lastname">Enter Last Name (Max 50 characters)</label>
-            <br>
             <input type="text" maxlenght="50" id="lastname">
-            <br>
+            <div id="errorMessages"></div><br>
 
             <label for="email">Enter Email</label>
-            <br>
             <input type="text" id="email">
-            <br>
+             <div id="errorMessages"></div><br>
 
             <label for="phone">Enter Phone Number (Max 15 digits)</label>
-            <br>
             <input type="text" maxlenght="15" id="phone">
-            <br>
+            <div id="errorMessages"></div><br>
 
             <label for="username">Enter Username (Max 12 characters)</label>
-            <br>
             <input type="text" maxlenght="12" id="username">
-            <br>
+             <div id="errorMessages"></div><br>
 
             <label for="password">Enter Password (Max 7 characters)</label>
-            <br>
             <input type="password" maxlenght="7" id="password">
-            <br>
+            <div id="errorMessages"></div><br>
        
 
-  
-            <legend>Current Address</legend>
-
             <label for="address">Enter Address</label>
-            <br>
             <input type="text" id="address" size="50">
-            <br>
+            <div id="errorMessages"><br>
 
             <label for="city">Enter City</label>
-            <br>
             <input type="text" id="city">
-            <br>
+            <div id="errorMessages"><br>
 
             <label for="state">Enter State</label>
-            <br>
             <select id="state">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -117,32 +105,27 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
             </select>
-            <br>
+            <div id="errorMessages"><br>
 
             <label for="country">Enter Country</label>
-            <br>
             <select id="country">
                 <option value="USA">United States</option>
                 <option>Canada</option>
                 <option>Mexico</option>
             </select>
-            <br>
+            <div id="errorMessages"><br>
 
             <label for="zipcode">Enter Zipcode</label>
-            <br>
             <input type="text" id="zipcode" maxlenght="5">
-            <br>
-       
+            <div id="errorMessages"><br>
 
-
-       
+                
             <legend>Comments</legend>
             <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
      
 
         <br>
         <input id="submit" type="submit" value="Submit">
-        <input id="cancel" type="submit" value="Cancel">
 
     </form>
 

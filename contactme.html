@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<link rel="stylesheet" href="assets/css/main.css" >
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" ></noscript>
+		<script type="text/javascript" src="art4/validator.js"></script> 
 	</head>
 	
 	<body class="is-preload">
@@ -46,25 +47,108 @@
 							
 					<footer id="footer">
 						<div>
-							<form method="get" action="thankyoupage.html" name="myContact">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name">
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" >
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" ></li>
-								</ul>
-							</form>
+							<h1>GET IN TOUCH WITH US</h1>
+    <form action="ty.html" method="get" name="myContact" onsubmit="return ValidateForm()">
+    <div id="errorMessages"></div>
+
+            <label for="firstname">Enter First Name</label>
+            <input type="text" maxlenght="20" id="firstname"><br>
+
+            <label for="lastname">Enter Last Name</label>
+            <input type="text" maxlenght="50" id="lastname"><br>
+
+            <label for="email">Enter Email</label>
+            <input type="text" id="email"><br>
+
+            <label for="phone">Enter Phone Number</label>
+            <input type="text" maxlenght="15" id="phone"><br>
+
+            <label for="username">Enter Username</label>
+            <input type="text" maxlenght="12" id="username"><br>
+
+            <label for="password">Enter Password</label>
+            <input type="password" maxlenght="7" id="password"><br>
+       
+
+            <label for="address">Enter Address</label>
+            <input type="text" id="address" size="50"><br>
+
+            <label for="city">Enter City</label>
+            <input type="text" id="city"><br>
+
+            <label for="state">Enter State</label>
+            <select id="state">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select><br>
+
+            <label for="country">Enter Country</label>
+            <select id="country">
+                <option value="USA">United States</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select><br>
+
+            <label for="zipcode">Enter Zipcode</label>
+            <input type="text" id="zipcode" maxlenght="5"><br>
+
+                
+            <legend>Comments</legend>
+            <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea><br>
+        
+        
+        <input id="submit" type="submit" value="Submit">
+
+    </form>
 							
 							<section>
 								<h3>Email</h3>
@@ -93,6 +177,12 @@
 					<div id="copyright">
 						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
+					 <div id="footer">
+        <p><a href="https://validator.w3.org/nu/" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10"
+                    alt="Valid XHTML 1.0" height="31" width="88"></a></p>
+        <p><a href="http://jigsaw.w3.org/css-validator/" target="_blank"><img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
+    </div>
 
 			</div>
 

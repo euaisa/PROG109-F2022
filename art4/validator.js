@@ -16,16 +16,8 @@ function ValidateForm() {
     var phoneformat = /^[0-9_\-]+$/i;
     var passwordformat = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+*!=]).*$/;
 
-    var errorMessages = ""; //All the error messages are going to stay in this variable
-    /**** VALIDATES USERNAME ****
-    */
-    //Required field
-    //This syntax is using name-of-form.name-of-field.value
-    //You can also use document.getElementById("id-of-field").value
-
-    /**** VALIDATES FIRSTNAME **** 
-  */
-    //Required: Maximun 20 characters.
+    var errorMessages = ""; 
+    
     if (myContact.firstname.value.length > 20 ||
         myContact.firstname.value === null ||
         myContact.firstname.value === "" ||
@@ -38,10 +30,6 @@ function ValidateForm() {
     else
         validFirstName = true;
 
-
-    /**** VALIDATES LASTNAME **** 
- */
-    //Required: Maximun 50 characters.
     if (myContact.lastname.value.length > 50 ||
         myContact.lastname.value === null ||
         myContact.lastname.value === "" ||
@@ -54,9 +42,7 @@ function ValidateForm() {
     else
         validLastName = true;
 
-    /**** VALIDATES EMAIL **** 
-*/
-    //Required.
+
     if (myContact.email.value === null ||
         myContact.email.value === "" ||
         !myContact.email.value.match(mailformat)){
@@ -68,9 +54,7 @@ function ValidateForm() {
     else
         validEmail = true;
 
-    /**** VALIDATES PHONE NUMBER **** 
-  */
-    //Required: Maximun 15 digits.
+    
     if (myContact.phone.value.length > 15 ||
         myContact.phone.value === null ||
         myContact.phone.value === "" ||
@@ -83,9 +67,7 @@ function ValidateForm() {
     else
         validPhoneNumber = true;
 
-    /**** VALIDATES USERNAME **** 
-    */
-    //Required: Maximun 12 characters.
+
     if (myContact.username.value.length > 12 ||
         myContact.username.value === null ||
         myContact.username.value === ""){
@@ -98,9 +80,6 @@ function ValidateForm() {
         validUsername = true;
 
 
-    /**** VALIDATES PASSWORD ****
-    */
-    //Required.  Maximum 7 characters.
     if (myContact.password.value.length > 7 ||
         myContact.password.value === null ||
         myContact.password.value === "" ||
@@ -114,9 +93,7 @@ function ValidateForm() {
         validPassword = true;
 
 
-    /**** VALIDATES ADDRESS **** 
-*/
-    //Required.
+
     if (myContact.address.value === null ||
         myContact.address.value === ""){
 
@@ -127,9 +104,7 @@ function ValidateForm() {
     else
         validAddress = true;
 
-    /**** VALIDATES CITY **** 
-*/
-    //Required.
+ 
     if (myContact.city.value === null ||
         myContact.city.value === ""){
 
@@ -140,9 +115,7 @@ function ValidateForm() {
     else
         validCity = true;
 
-    /**** VALIDATES STATE **** 
-*/
-    //Required.
+
     if (myContact.state.value === null ||
         myContact.state.value === ""){
 
@@ -153,9 +126,7 @@ function ValidateForm() {
     else
         validState = true;
 
-    /**** VALIDATES COUNTRY **** 
-*/
-    //Required.
+
     if (myContact.country.value === null ||
         myContact.country.value === ""){
 
@@ -166,11 +137,7 @@ function ValidateForm() {
     else
         validCountry = true;
 
-    /**** VALIDATES ZIPCODE ****
-*/
 
-
-    /****VALIDATES ZIPCODE ONLY IF THE COUNTRY IS USA */
     if (myContact.country.value === "USA" &&
         myContact.zipcode.value.length !== 5){
 

@@ -26,7 +26,8 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
-	background-image: url(../images/kinglogo.png);
+	background-image: url(https://cdn.pixabay.com/photo/2017/01/30/14/20/shopping-cart-2020929_1280.png);
+    	background-size: 72px 72px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
@@ -152,7 +153,11 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     h1{
-        background-image: url(../img/2xkinglogo.png);
-        background-size: 72px 72px;
+        background-image: url(https://cdn.pixabay.com/photo/2017/01/30/14/20/shopping-cart-2020929_1280.png);
+    	background-size: 72px 72px;
+    	background-repeat: no-repeat;
+}
+
+
     }
 }

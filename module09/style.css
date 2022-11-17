@@ -2,6 +2,7 @@
     height: 200px;
     background-image: url("https://cdn.pixabay.com/photo/2016/02/24/15/27/paint-1220087_1280.jpg");
     background-size: cover;
+    text-align: center;
   }
 
   .dot {
@@ -11,13 +12,7 @@
     position: absolute;
   }
 
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+button {
+   
 }
    

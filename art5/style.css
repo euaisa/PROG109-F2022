@@ -1,21 +1,30 @@
 body {
-}
-
-h1 {
-}
-
-#auto {
-}
-
-#slideshow {
-}
-
-#caption {
-}
-
-#previous {
-}
-
-#next {
-}
-
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+    background-color:#999999;
+    margin: auto;
+    text-align: center;
+    }
+  
+  h1 {
+    font-family: 'BebasNeueBold'; 
+    font-weight: normal; 
+    font-style: normal;
+    color:#ffffff;
+    text-shadow: 2px 2px 1px #444444;
+    line-height: 2.5em;
+    }
+ 
+  a {
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+    color: white;
+    }
+    
+  a:visited{
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+    color: #999999;
+    }
+  
+  a:hover {
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+    color: red;
+    }

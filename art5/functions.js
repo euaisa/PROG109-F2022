@@ -1,8 +1,4 @@
-var myImages =["paris.jpg",
-               "vatican.jpg",
-               "london.jpg",
-               "arizona.jpg",
-               "kauai.jpg"];
+var myImages =["paris.jpg", "vatican.jpg", "london.jpg", "arizona.jpg", "kauai.jpg"];
 
 
 var captionImages =["Eiffel Tower, Paris", "Vatican, Rome","Red Phone Booth, London","Grand Canyon, Arizona","Napali Coast, Kauai"];
@@ -16,12 +12,12 @@ var captionImages =["Eiffel Tower, Paris", "Vatican, Rome","Red Phone Booth, Lon
 } 
 
 function next(){
- if (myImages.length == index+1)
- index=0;
+ if (myImages.length == index+1){
+ index=0;}
  else
- index++;
+ {index++;
  updateImage();
-} 
+}}
  
 
 function back(){
@@ -37,3 +33,10 @@ var previousButton = document.getElementById("previous");
 
 previousButton.addEventListener("click",back,false);
 nextButton.addEventListener("click",next,false); 
+
+function autoSlide(){
+    if (document.getElementById("auto").checked)
+    next(); 
+    }
+
+setInterval(autoSlide,2000); // Next

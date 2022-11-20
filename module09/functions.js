@@ -1,20 +1,31 @@
-var  mybutton = document.querySelector("button");
-mybutton.addEventListener("click", function(event) {
-
-
-var element = document.getElementsByTagName("div");
-for (index = element.length - 1; index >= 0; index--) {
-    element[index].parentNode.removeChild(element[index]);
+function clearScreen (event) {
+    var divs = document.getElementsByTagName("div");
+    for (var index = divs.length - 1; index >= 0; index--) {
+        divs[index].parentNode.removeChild(divs[index]);
+    }
+    event.stopPropagation();
 }
 
-// Let us stop the propagation of events
+function ignoreClicks(event){
+    event.stopPropagation();
+}
 
-event.stopPropagation();
-  });
-  addEventListener("click", function(event) {
+function addDot(event) {
     var dot = document.createElement("div");
+    let radius = document.getElementById("radius").value;
     dot.className = "dot";
-    dot.style.left = (event.pageX - 4) + "px";
-    dot.style.top = (event.pageY - 4) + "px";
+    dot.style.left = (event.pageX - radius) + "px";
+    dot.style.top = (event.pageY - radius) + "px";
+    dot.style.background = document.getElementById("color").value;
+    dot.style.width = (radius * 2) + "px";
+    dot.style.height = (radius * 2) + "px";
     document.body.appendChild(dot);
-  });
+}
+
+var  clear = document.querySelector("button");
+
+clear.addEventListener("click", clearScreen);
+
+document.getElementById("color").addEventListener("click", ignoreClicks);
+document.getElementById("radius").addEventListener("click", ignoreClicks);
+document.addEventListener("click", addDot);

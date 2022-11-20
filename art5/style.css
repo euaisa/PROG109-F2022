@@ -1,6 +1,6 @@
 body {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    background-color:#FFADBC;
+    background-color:#FFE1E1;
     margin: auto;
     text-align: center;
     }
@@ -12,6 +12,7 @@ body {
     color:#ffffff;
     text-shadow: 2px 2px 1px #444444;
     line-height: 2.5em;
+    margin-bottom: 0;
     }
  
   a {
@@ -28,3 +29,13 @@ body {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: red;
     }
+
+#caption {
+    font-family: 'BebasNeueBold'; 
+    font-weight: normal; 
+    font-style: normal;
+    color:#ffffff;
+    text-shadow: 2px 2px 1px #444444;
+    line-height: 2.5em;
+}
+

@@ -35,5 +35,6 @@ nextButton.addEventListener("click",next,false);
 
 function autoSlide(){
     if (document.getElementById("auto").checked)
-      setInterval(autoSlide,2000); // next();
+      setInterval(autoSlide,2000);
+      next();
 }

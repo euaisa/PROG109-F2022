@@ -2322,6 +2322,7 @@ z-index : -1;
 position : fixed;
 width : 100vw;
 height : 100vh;
+background-image: url(https://cdn.pixabay.com/photo/2012/10/26/01/43/parachute-63045_1280.jpg);
 }
 #wrapper.fade-in:before {
 pointer-events : none;

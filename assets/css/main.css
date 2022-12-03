@@ -2324,6 +2324,7 @@ position : fixed;
 width : 100vw;
 height : 100vh;
 background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg);
+background-size: cover;
 }
 #wrapper.fade-in:before {
 pointer-events : none;

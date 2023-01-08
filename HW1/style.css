@@ -1,0 +1,20 @@
+body {
+	background: url("https://cdn.pixabay.com/photo/2022/12/30/11/09/cat-7686662_960_720.jpg"), no-repeat;
+	font-family: Helvetica;
+	font-size: 20px;
+    margin: 0px;;
+	padding: 100px;
+}
+
+p {
+	line-height: 150%;
+	margin: 0 0 10px;
+    color: #FCFFE7
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0 0 15px;
+	font-weight: normal;
+    color: #FCFFE7
+}
